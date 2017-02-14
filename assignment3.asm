@@ -9,7 +9,7 @@ ExitProcess proto,dwExitCode:dword
 n = 10 ; Size of array (in DWORDs) to fill with Fibonacci numbers
 
 .data
-	array dword n dup(0FFFFFFFFh)
+	array DWORD n DUP(0FFFFFFFFh)
 	prevVal DWORD 0
 	newLine BYTE 13,10,0 ; newline string
 
